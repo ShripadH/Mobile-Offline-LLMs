@@ -1,0 +1,54 @@
+{
+  "id": "todo-9f3c2b7e-45d1-4c67-a123-8891ff01c321",
+  "parentTaskId": "task-kyc-2026-00045", // assosiate todo with Task Ids
+  "title": "Call client to collect missing KYC documents",
+  "description": "Contact Mr. Sharma regarding missing address proof and updated PAN copy for KYC compliance.",
+  "status": "IN_PROGRESS", // "OPEN", "IN_PROGRESS", "SNOOZED", "COMPLETED", "CANCELLED"
+  "priority": "HIGH",
+  "dueDate": "2026-02-18T17:00:00Z",
+  "snoozeUntil": null,
+
+  "reminder": {
+    "enabled": true,
+    "remindAt": "2026-02-18T15:00:00Z",
+    "channels": ["IN_APP", "EMAIL"]
+  },
+
+  "recurrence": null, // add daily/weekly/monthly todos
+
+  "tags": ["KYC", "CLIENT_FOLLOWUP", "COMPLIANCE"],
+
+  "visibility": "TEAM", // team / individual
+  "assignedTo": "user-emp-1023",
+  "createdBy": "user-emp-1001",
+
+  "createdAt": "2026-02-15T09:15:00Z",
+  "updatedAt": "2026-02-16T11:40:00Z",
+  "completedAt": null,
+  "isDeleted": false,
+
+  "metadata": {
+    "clientId": "client-784512",
+    "accountId": "acct-00982374",
+    "branchCode": "BR-DEL-01",
+    "riskLevel": "MEDIUM"
+  },
+
+  "activityLog": [
+    {
+      "action": "CREATED",
+      "timestamp": "2026-02-15T09:15:00Z",
+      "performedBy": "user-emp-1001"
+    },
+    {
+      "action": "ASSIGNED",
+      "timestamp": "2026-02-15T09:16:00Z",
+      "performedBy": "user-emp-1001"
+    },
+    {
+      "action": "STATUS_UPDATED_TO_IN_PROGRESS",
+      "timestamp": "2026-02-16T11:40:00Z",
+      "performedBy": "user-emp-1023"
+    }
+  ]
+}

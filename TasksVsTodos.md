@@ -80,3 +80,15 @@ OVERDUE
 
 
 ```
+
+| Feature              | Complexity | ROI       | Phase   |
+| -------------------- | ---------- | --------- | ------- |
+| Smart creation       | Low        | High      | Phase 1 |
+| Auto priority        | Low        | High      | Phase 1 |
+| Smart tagging        | Low        | Medium    | Phase 1 |
+| Email drafting       | Medium     | Very High | Phase 1 |
+| Delay prediction     | Medium     | High      | Phase 2 |
+| Smart reminders      | Medium     | High      | Phase 2 |
+| Daily briefing       | Medium     | Very High | Phase 2 |
+| Auto follow-up agent | High       | Very High | Phase 3 |
+| Conversion to Task   | High       | Strategic | Phase 3 |
